@@ -3,7 +3,7 @@ from discord.ext import commands, tasks
 from discord import app_commands
 import asyncio
 import os
-import datetime
+
 # Intents 객체 생성
 intents = discord.Intents.default()
 
