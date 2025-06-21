@@ -13,7 +13,6 @@ class Example(commands.Cog):
 
     @app_commands.command(name="test", description="테스트 명령어입니다.")
     async def create_post(self, interaction: discord.Interaction):
-       
         await interaction.response.send_message("test", ephemeral=True)
 
 async def setup(bot):
